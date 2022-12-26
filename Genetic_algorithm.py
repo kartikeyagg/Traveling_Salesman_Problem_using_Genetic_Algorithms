@@ -170,6 +170,8 @@ for j in final_order:
 
 # plt.plot(vec_x,vec_y,scatter)
 plt.scatter(vec_x,vec_y,color = 'black')
+plt.show()
+plt.scatter(vec_x,vec_y,color = 'black')
 plt.plot(vec_x,vec_y)
 plt.title("Optimal Path")
 plt.show(block = True)
